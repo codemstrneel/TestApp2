@@ -14,6 +14,9 @@
 		181E39C82C64780F00C3F09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E39C62C64780F00C3F09A /* Main.storyboard */; };
 		181E39D42C64780F00C3F09A /* TestApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E39D32C64780F00C3F09A /* TestApp2Tests.swift */; };
 		181E39DF2C64780F00C3F09A /* TestApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E39DE2C64780F00C3F09A /* TestApp2UITests.swift */; };
+		181E39F12C64789400C3F09A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181E39F02C64789400C3F09A /* WebKit.framework */; };
+		181E39F32C6478B700C3F09A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E39F22C6478B700C3F09A /* WebView.swift */; };
+		181E3A032C6479B600C3F09A /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E3A022C6479B600C3F09A /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		181E39DA2C64780F00C3F09A /* TestApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E39DE2C64780F00C3F09A /* TestApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp2UITests.swift; sourceTree = "<group>"; };
 		181E39E02C64780F00C3F09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E39F02C64789400C3F09A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		181E39F22C6478B700C3F09A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		181E3A022C6479B600C3F09A /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E39F12C64789400C3F09A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +89,7 @@
 				181E39D22C64780F00C3F09A /* TestApp2Tests */,
 				181E39DD2C64780F00C3F09A /* TestApp2UITests */,
 				181E39BB2C64780700C3F09A /* Products */,
+				181E39EF2C64789400C3F09A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,8 @@
 				181E39C92C64780F00C3F09A /* Info.plist */,
 				181E39CA2C64780F00C3F09A /* TestApp2.entitlements */,
 				181E39C32C64780F00C3F09A /* Preview Content */,
+				181E39F22C6478B700C3F09A /* WebView.swift */,
+				181E3A022C6479B600C3F09A /* WindowController.swift */,
 			);
 			path = TestApp2;
 			sourceTree = "<group>";
@@ -133,6 +143,14 @@
 				181E39E02C64780F00C3F09A /* Info.plist */,
 			);
 			path = TestApp2UITests;
+			sourceTree = "<group>";
+		};
+		181E39EF2C64789400C3F09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181E39F02C64789400C3F09A /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E39F32C6478B700C3F09A /* WebView.swift in Sources */,
+				181E3A032C6479B600C3F09A /* WindowController.swift in Sources */,
 				181E39C02C64780700C3F09A /* ContentView.swift in Sources */,
 				181E39BE2C64780700C3F09A /* AppDelegate.swift in Sources */,
 			);
